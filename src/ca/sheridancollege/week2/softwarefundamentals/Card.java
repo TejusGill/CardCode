@@ -72,6 +72,9 @@ public class Card
             this.value = value;
         }
     }
+    public void show(){
+        System.out.println("You have " + getValue() + " of " + getSuit());
+    }
     
     
 }
