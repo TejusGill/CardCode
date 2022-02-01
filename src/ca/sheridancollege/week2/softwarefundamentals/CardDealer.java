@@ -21,5 +21,8 @@ public class CardDealer
         
         //new object for card class with value of 10 of Spade
         Card tenSpade = new Card("Spade",10);
-    }
+        tenSpade.setSuit("Spade");
+        tenSpade.setValue(10);
+       }
+   
 }
