@@ -26,5 +26,10 @@ public class CardDealer
         tenSpade.setValue(10);
         // a call to show() from Card
         tenSpade.show();
+        
+        Card twoHeart = new Card("Hearts",2);
+        twoHeart.setSuit("Hearts");
+        twoHeart.setValue(2);
+        
     }
 }
